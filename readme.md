@@ -1,6 +1,6 @@
 MSP430FR2433Breakout
 
-A breakout board for Texas Instrument's MSP430FR2433 embedded microprocessor.
+A breakout board for Texas Instrument's MSP430FR2433 embedded microprocessor with Abracon RTC.
 
 Features:
 
