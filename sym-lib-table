@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Blinker-rescue)(type Legacy)(uri ${KIPRJMOD}/Blinker-rescue.lib)(options "")(descr ""))
+  (lib (name MSP430FR2433Breakout-rescue)(type Legacy)(uri ${KIPRJMOD}/MSP430FR2433Breakout-rescue.lib)(options "")(descr ""))
+)

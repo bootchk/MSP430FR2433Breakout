@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/bootch/Dropbox/solarmobile/PCBoards/MSP430Boards/MSP430FR2433Breakout/MSP430FR2433Breakout.sch</source>
+    <date>Sun 03 Apr 2022 11:56:12 AM EDT</date>
+    <tool>Eeschema 5.1.7-a382d34a8~88~ubuntu16.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>MSP430FR2433Breakout.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U4">
+      <value>Msp430fr2433</value>
+      <footprint>Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias</footprint>
+      <fields>
+        <field name="SourcePartNo">296-47810-1-ND</field>
+      </fields>
+      <libsource lib="MSP430FR2433Breakout-rescue" part="Msp430fr2433-mySchemSymbols-Blinker-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AFD7AE4</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>AB0805</value>
+      <footprint>Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.75x1.75mm</footprint>
+      <fields>
+        <field name="SourcePartNo">535-11926-1-ND</field>
+      </fields>
+      <libsource lib="MSP430FR2433Breakout-rescue" part="AB0805-mySchemSymbols-Blinker-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AFD825A</tstamp>
+    </comp>
+    <comp ref="Cf1">
+      <value>47pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="SourcePartNo">490-1529-1-nd</field>
+        <field name="stock">100</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AFD896D</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>32.768kHz</value>
+      <footprint>Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm</footprint>
+      <datasheet>Abracon ABS07</datasheet>
+      <fields>
+        <field name="SourcePartNo">535-11937-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AFD8DA1</tstamp>
+    </comp>
+    <comp ref="Cby1">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="SourcePartNo">470-9730-1-nd</field>
+        <field name="stock">100</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B008E7C</tstamp>
+    </comp>
+    <comp ref="CON1">
+      <value>TC2030-CTX-NL</value>
+      <footprint>myFootprints:TC2030-CTX-NL</footprint>
+      <fields>
+        <field name="SourcePartNo">NA</field>
+      </fields>
+      <libsource lib="MSP430FR2433Breakout-rescue" part="TC2030-CTX-NL-mySchemSymbols-Blinker-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B00974D</tstamp>
+    </comp>
+    <comp ref="Cby3">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="SourcePartNo">490-3896-1-nd</field>
+        <field name="stock">2</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B096EF1</tstamp>
+    </comp>
+    <comp ref="Cby2">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B097115</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x12</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x12" description="Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62421555</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x12</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x12" description="Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62422DC4</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6242BF33</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x12">
+      <description>Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x12</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal">
+      <description>Two pin crystal</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MSP430FR2433Breakout-rescue" part="AB0805-mySchemSymbols-Blinker-rescue">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AB0805-mySchemSymbols-Blinker-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="NotConnected"/>
+        <pin num="2" name="Wdi" type="input"/>
+        <pin num="3" name="NC" type="NotConnected"/>
+        <pin num="4" name="nIRQ2" type="output"/>
+        <pin num="5" name="VBat" type="power_in"/>
+        <pin num="6" name="SDA" type="output"/>
+        <pin num="7" name="SCL" type="input"/>
+        <pin num="8" name="NC" type="NotConnected"/>
+        <pin num="9" name="Vss" type="power_in"/>
+        <pin num="10" name="ExtInt" type="input"/>
+        <pin num="11" name="FOut/nIRQ" type="output"/>
+        <pin num="12" name="nTIRQ" type="input"/>
+        <pin num="13" name="Vcc" type="power_in"/>
+        <pin num="14" name="AFilt" type="input"/>
+        <pin num="15" name="XO" type="input"/>
+        <pin num="16" name="XI" type="input"/>
+        <pin num="17" name="Vss" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="MSP430FR2433Breakout-rescue" part="Msp430fr2433-mySchemSymbols-Blinker-rescue">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Msp430fr2433-mySchemSymbols-Blinker-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NotReset/SWdio" type="BiDi"/>
+        <pin num="2" name="Test/SWClk" type="BiDi"/>
+        <pin num="3" name="P1.4/a4" type="BiDi"/>
+        <pin num="4" name="P1.5/a5/SI" type="BiDi"/>
+        <pin num="5" name="P1.6/a6/SO" type="BiDi"/>
+        <pin num="6" name="P1.7/a7/Sclk" type="BiDi"/>
+        <pin num="7" name="P1.0/a0" type="BiDi"/>
+        <pin num="8" name="P1.1/a1" type="BiDi"/>
+        <pin num="9" name="P1.2/i2cSDA/a2" type="BiDi"/>
+        <pin num="10" name="P1.3/i2cSCL/a3" type="BiDi"/>
+        <pin num="11" name="P2.2" type="BiDi"/>
+        <pin num="12" name="P3.0" type="BiDi"/>
+        <pin num="13" name="P2.3" type="BiDi"/>
+        <pin num="14" name="P3.1/Ste" type="BiDi"/>
+        <pin num="15" name="P2.4/SClk" type="BiDi"/>
+        <pin num="16" name="P2.5/SO" type="BiDi"/>
+        <pin num="17" name="P2.6/SI" type="BiDi"/>
+        <pin num="18" name="Vss" type="BiDi"/>
+        <pin num="19" name="P2.7" type="BiDi"/>
+        <pin num="20" name="P3.2" type="BiDi"/>
+        <pin num="21" name="P2.0/Xout" type="BiDi"/>
+        <pin num="22" name="P2.1/Xin" type="BiDi"/>
+        <pin num="23" name="Vss" type="BiDi"/>
+        <pin num="24" name="Vcc" type="BiDi"/>
+        <pin num="25" name="Thermal" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MSP430FR2433Breakout-rescue" part="TC2030-CTX-NL-mySchemSymbols-Blinker-rescue">
+      <fields>
+        <field name="Reference">CON</field>
+        <field name="Value">TC2030-CTX-NL-mySchemSymbols-Blinker-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vcc" type="input"/>
+        <pin num="2" name="SWDIO" type="input"/>
+        <pin num="3" name="nReset" type="input"/>
+        <pin num="4" name="SWCLK" type="input"/>
+        <pin num="5" name="Gnd/Detect" type="input"/>
+        <pin num="6" name="SWO" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="MSP430FR2433Breakout-rescue">
+      <uri>/home/bootch/Dropbox/solarmobile/PCBoards/MSP430Boards/MSP430FR2433Breakout/MSP430FR2433Breakout-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="U4" pin="25"/>
+      <node ref="Cby2" pin="2"/>
+      <node ref="Cby1" pin="2"/>
+      <node ref="U1" pin="17"/>
+      <node ref="U4" pin="23"/>
+      <node ref="J2" pin="12"/>
+      <node ref="U4" pin="18"/>
+      <node ref="U1" pin="10"/>
+      <node ref="U1" pin="9"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U1" pin="2"/>
+      <node ref="Cf1" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="J1" pin="12"/>
+      <node ref="J1" pin="11"/>
+      <node ref="CON1" pin="5"/>
+      <node ref="Cby3" pin="2"/>
+    </net>
+    <net code="2" name="Net-(U1-Pad12)">
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="3" name="P2.2">
+      <node ref="J2" pin="3"/>
+      <node ref="U4" pin="11"/>
+    </net>
+    <net code="4" name="P3.0">
+      <node ref="U4" pin="12"/>
+      <node ref="J2" pin="9"/>
+    </net>
+    <net code="5" name="AlarmIRQ">
+      <node ref="U4" pin="8"/>
+      <node ref="U1" pin="11"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="6" name="SCL">
+      <node ref="J1" pin="6"/>
+      <node ref="U1" pin="7"/>
+      <node ref="U4" pin="10"/>
+    </net>
+    <net code="7" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="8" name="SDA">
+      <node ref="J1" pin="5"/>
+      <node ref="U4" pin="9"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="9" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="10" name="AFilt">
+      <node ref="Cf1" pin="1"/>
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="11" name="Xtal2">
+      <node ref="Y1" pin="1"/>
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="12" name="Xtal1">
+      <node ref="Y1" pin="2"/>
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="13" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="14" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="15" name="P3.2">
+      <node ref="U4" pin="20"/>
+      <node ref="J2" pin="11"/>
+    </net>
+    <net code="16" name="P2.3">
+      <node ref="J2" pin="4"/>
+      <node ref="U4" pin="13"/>
+    </net>
+    <net code="17" name="P3.1">
+      <node ref="J2" pin="10"/>
+      <node ref="U4" pin="14"/>
+    </net>
+    <net code="18" name="P2.4">
+      <node ref="J2" pin="5"/>
+      <node ref="U4" pin="15"/>
+    </net>
+    <net code="19" name="P2.5">
+      <node ref="U4" pin="16"/>
+      <node ref="J2" pin="6"/>
+    </net>
+    <net code="20" name="P2.6">
+      <node ref="U4" pin="17"/>
+      <node ref="J2" pin="7"/>
+    </net>
+    <net code="21" name="P2.7">
+      <node ref="J2" pin="8"/>
+      <node ref="U4" pin="19"/>
+    </net>
+    <net code="22" name="P2.0">
+      <node ref="J2" pin="1"/>
+      <node ref="U4" pin="21"/>
+    </net>
+    <net code="23" name="P2.1">
+      <node ref="U4" pin="22"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="24" name="P1.4">
+      <node ref="U4" pin="3"/>
+      <node ref="J1" pin="7"/>
+    </net>
+    <net code="25" name="P1.5">
+      <node ref="J1" pin="8"/>
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="26" name="P1.6">
+      <node ref="U4" pin="5"/>
+      <node ref="J1" pin="9"/>
+    </net>
+    <net code="27" name="P1.7">
+      <node ref="J1" pin="10"/>
+      <node ref="U4" pin="6"/>
+    </net>
+    <net code="28" name="P1.0">
+      <node ref="J1" pin="3"/>
+      <node ref="U4" pin="7"/>
+    </net>
+    <net code="29" name="SWClk">
+      <node ref="U4" pin="2"/>
+      <node ref="CON1" pin="4"/>
+    </net>
+    <net code="30" name="SWDio">
+      <node ref="U4" pin="1"/>
+      <node ref="CON1" pin="2"/>
+    </net>
+    <net code="31" name="Net-(CON1-Pad3)">
+      <node ref="CON1" pin="3"/>
+    </net>
+    <net code="32" name="Net-(CON1-Pad6)">
+      <node ref="CON1" pin="6"/>
+    </net>
+    <net code="33" name="Vcc">
+      <node ref="U1" pin="13"/>
+      <node ref="Cby1" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="U4" pin="24"/>
+      <node ref="J3" pin="3"/>
+      <node ref="J3" pin="2"/>
+      <node ref="J3" pin="1"/>
+      <node ref="Cby3" pin="1"/>
+      <node ref="Cby2" pin="1"/>
+      <node ref="CON1" pin="1"/>
+    </net>
+  </nets>
+</export>

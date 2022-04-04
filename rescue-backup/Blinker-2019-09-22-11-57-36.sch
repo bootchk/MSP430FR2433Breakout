@@ -1,0 +1,506 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:mySchemSymbols
+LIBS:Blinker-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Msp430fr2433 U4
+U 1 1 5AFD7AE4
+P 6000 3750
+F 0 "U4" H 6000 5350 60  0000 C CNN
+F 1 "Msp430fr2433" H 6000 2400 60  0000 C CNN
+F 2 "myFootprints:QFN-24" H 6000 3400 60  0001 C CNN
+F 3 "" H 6000 3400 60  0000 C CNN
+F 4 "296-47810-1-ND" H 6000 3750 60  0001 C CNN "SourcePartNo"
+	1    6000 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L AB0805 U1
+U 1 1 5AFD825A
+P 3000 3750
+F 0 "U1" H 3000 4700 60  0000 C CNN
+F 1 "AB0805" H 3000 2900 60  0000 C CNN
+F 2 "myFootprints:QFN16thermalpasted" H 3000 4050 60  0001 C CNN
+F 3 "" H 3000 4050 60  0000 C CNN
+F 4 "535-11926-1-ND" H 3000 2750 60  0000 C CNN "SourcePartNo"
+	1    3000 3750
+	1    0    0    -1  
+$EndComp
+Text GLabel 3950 3200 2    60   Input ~ 0
+Xtal1
+Text GLabel 3950 3350 2    60   Input ~ 0
+Xtal2
+Text GLabel 3950 3500 2    60   Input ~ 0
+AFilt
+Text GLabel 3950 4000 2    60   Input ~ 0
+AlarmIRQ
+Text GLabel 2100 4000 0    60   Input ~ 0
+SDA
+$Comp
+L GND #PWR01
+U 1 1 5AFD8552
+P 3950 4150
+F 0 "#PWR01" H 3950 3900 50  0001 C CNN
+F 1 "GND" V 3950 3950 50  0000 C CNN
+F 2 "" H 3950 4150 50  0000 C CNN
+F 3 "" H 3950 4150 50  0000 C CNN
+	1    3950 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 5AFD856C
+P 2100 3400
+F 0 "#PWR02" H 2100 3150 50  0001 C CNN
+F 1 "GND" V 2100 3200 50  0000 C CNN
+F 2 "" H 2100 3400 50  0000 C CNN
+F 3 "" H 2100 3400 50  0000 C CNN
+	1    2100 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 5AFD85BE
+P 2100 3850
+F 0 "#PWR03" H 2100 3600 50  0001 C CNN
+F 1 "GND" V 2100 3650 50  0000 C CNN
+F 2 "" H 2100 3850 50  0000 C CNN
+F 3 "" H 2100 3850 50  0000 C CNN
+	1    2100 3850
+	0    1    1    0   
+$EndComp
+Text GLabel 2100 4150 0    60   Input ~ 0
+SClk
+NoConn ~ 2100 3700
+Text GLabel 5200 2550 0    60   Input ~ 0
+SWDio
+Text GLabel 5200 2750 0    60   Input ~ 0
+SWClk
+$Comp
+L GND #PWR04
+U 1 1 5AFD8915
+P 6700 2750
+F 0 "#PWR04" H 6700 2500 50  0001 C CNN
+F 1 "GND" H 6700 2600 50  0000 C CNN
+F 2 "" H 6700 2750 50  0000 C CNN
+F 3 "" H 6700 2750 50  0000 C CNN
+	1    6700 2750
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1450 2350 2    60   Input ~ 0
+AFilt
+$Comp
+L C Cf1
+U 1 1 5AFD896D
+P 1300 2350
+F 0 "Cf1" V 1150 2300 50  0000 L CNN
+F 1 "47pF" V 1500 2350 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 1338 2200 50  0001 C CNN
+F 3 "" H 1300 2350 50  0000 C CNN
+F 4 "490-1529-1-nd" V 1300 2350 60  0001 C CNN "SourcePartNo"
+F 5 "100" V 1300 2350 60  0001 C CNN "stock"
+	1    1300 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 5AFD8996
+P 1150 2350
+F 0 "#PWR05" H 1150 2100 50  0001 C CNN
+F 1 "GND" H 1150 2200 50  0000 C CNN
+F 2 "" H 1150 2350 50  0000 C CNN
+F 3 "" H 1150 2350 50  0000 C CNN
+	1    1150 2350
+	1    0    0    -1  
+$EndComp
+Text GLabel 5200 3950 0    60   Input ~ 0
+AlarmIRQ
+Text GLabel 6700 3150 2    60   Input ~ 0
+LEDP
+$Comp
+L Crystal Y1
+U 1 1 5AFD8DA1
+P 1350 3000
+F 0 "Y1" H 1350 3150 50  0000 C CNN
+F 1 "32.768kHz" H 1350 2850 50  0000 C CNN
+F 2 "myFootprints:EpsonFC135" H 1350 3000 50  0001 C CNN
+F 3 "Abracon ABS07" H 1350 2700 50  0000 C CNN
+F 4 "535-11937-1-ND" H 1350 3000 60  0001 C CNN "SourcePartNo"
+	1    1350 3000
+	1    0    0    -1  
+$EndComp
+Text GLabel 1500 3000 2    60   Input ~ 0
+Xtal1
+Text GLabel 1200 3000 0    60   Input ~ 0
+Xtal2
+$Comp
+L GND #PWR06
+U 1 1 5AFD8E87
+P 3950 3050
+F 0 "#PWR06" H 3950 2800 50  0001 C CNN
+F 1 "GND" V 3950 2850 50  0000 C CNN
+F 2 "" H 3950 3050 50  0000 C CNN
+F 3 "" H 3950 3050 50  0000 C CNN
+	1    3950 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR07
+U 1 1 5AFD8E9E
+P 6700 2350
+F 0 "#PWR07" H 6700 2100 50  0001 C CNN
+F 1 "GND" H 6700 2200 50  0000 C CNN
+F 2 "" H 6700 2350 50  0000 C CNN
+F 3 "" H 6700 2350 50  0000 C CNN
+	1    6700 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D SC1
+U 1 1 5AFD909C
+P 9350 1000
+F 0 "SC1" H 9350 1100 50  0000 C CNN
+F 1 "KXOB22-4x3 1.9V" H 9400 1200 50  0000 C CNN
+F 2 "myFootprints:IXYS_KXOB22_1x8_handsolderable" H 9350 1000 50  0001 C CNN
+F 3 "" H 9350 1000 50  0000 C CNN
+F 4 "KXOB22-04X3F-ND" H 9350 1000 60  0001 C CNN "SourcePartNo"
+	1    9350 1000
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR08
+U 1 1 5AFD9101
+P 10550 1000
+F 0 "#PWR08" H 10550 750 50  0001 C CNN
+F 1 "GND" H 10550 850 50  0000 C CNN
+F 2 "" H 10550 1000 50  0000 C CNN
+F 3 "" H 10550 1000 50  0000 C CNN
+	1    10550 1000
+	0    -1   -1   0   
+$EndComp
+Text GLabel 9200 1000 0    60   Input ~ 0
+Vsc
+$Comp
+L D Dblock1
+U 1 1 5AFD91A2
+P 8450 1000
+F 0 "Dblock1" H 8450 1100 50  0000 C CNN
+F 1 "1N4148 0.4V" H 8500 1200 50  0000 C CNN
+F 2 "Diodes_SMD:SOD-323" H 8450 1000 50  0001 C CNN
+F 3 "" H 8450 1000 50  0000 C CNN
+	1    8450 1000
+	1    0    0    -1  
+$EndComp
+Text GLabel 8600 1000 2    60   Input ~ 0
+Vsc
+Text GLabel 8300 1000 0    60   Input ~ 0
+Vstor
+$Comp
+L CP Cstor1
+U 1 1 5AFD9317
+P 7400 1150
+F 0 "Cstor1" H 7000 1150 50  0000 L CNN
+F 1 "0.5F" H 7425 1050 50  0000 L CNN
+F 2 "myFootprints:IllCap_DGH_Series_0_5F" H 7438 1000 50  0001 C CNN
+F 3 "" H 7400 1150 50  0000 C CNN
+F 4 "1572-1776-ND" H 7400 1150 60  0001 C CNN "SourcePartNo"
+	1    7400 1150
+	1    0    0    -1  
+$EndComp
+Text GLabel 7400 1000 2    60   Input ~ 0
+Vstor
+$Comp
+L GND #PWR09
+U 1 1 5AFD940C
+P 7400 1300
+F 0 "#PWR09" H 7400 1050 50  0001 C CNN
+F 1 "GND" H 7400 1150 50  0000 C CNN
+F 2 "" H 7400 1300 50  0000 C CNN
+F 3 "" H 7400 1300 50  0000 C CNN
+	1    7400 1300
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6700 3550
+NoConn ~ 6700 4550
+NoConn ~ 5200 4750
+NoConn ~ 5200 3350
+NoConn ~ 6700 3350
+$Comp
+L C Cby1
+U 1 1 5B008E7C
+P 7500 2350
+F 0 "Cby1" V 7350 2300 50  0000 L CNN
+F 1 "0.1uF" V 7700 2350 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 7538 2200 50  0001 C CNN
+F 3 "" H 7500 2350 50  0000 C CNN
+F 4 "470-9730-1-nd" V 7500 2350 60  0001 C CNN "SourcePartNo"
+F 5 "100" V 7500 2350 60  0001 C CNN "stock"
+	1    7500 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR010
+U 1 1 5B008E82
+P 7350 2350
+F 0 "#PWR010" H 7350 2100 50  0001 C CNN
+F 1 "GND" H 7350 2200 50  0000 C CNN
+F 2 "" H 7350 2350 50  0000 C CNN
+F 3 "" H 7350 2350 50  0000 C CNN
+	1    7350 2350
+	1    0    0    -1  
+$EndComp
+Text GLabel 7650 2350 2    60   Input ~ 0
+SwVcc
+Text Notes 8550 4150 0    60   ~ 0
+Mcu has internal pullup on AlarmIRQ pin
+$Comp
+L TC2030-CTX-NL CON1
+U 1 1 5B00974D
+P 2950 5850
+F 0 "CON1" H 2900 5250 60  0000 C CNN
+F 1 "TC2030-CTX-NL" H 2950 6450 60  0000 C CNN
+F 2 "myFootprints:TC2030-CTX-NL" H 2950 4950 60  0001 C CNN
+F 3 "" H 2950 4950 60  0000 C CNN
+F 4 "NA" H 2950 5850 60  0001 C CNN "SourcePartNo"
+	1    2950 5850
+	1    0    0    -1  
+$EndComp
+Text GLabel 2350 5850 0    60   Input ~ 0
+SWDio
+Text GLabel 3550 5550 2    60   Input ~ 0
+SWClk
+NoConn ~ 3550 6150
+NoConn ~ 2350 6150
+$Comp
+L GND #PWR011
+U 1 1 5B0098A6
+P 3550 5850
+F 0 "#PWR011" H 3550 5600 50  0001 C CNN
+F 1 "GND" V 3550 5600 50  0000 C CNN
+F 2 "" H 3550 5850 50  0000 C CNN
+F 3 "" H 3550 5850 50  0000 C CNN
+	1    3550 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED LED1
+U 1 1 5B00B06F
+P 5600 6050
+F 0 "LED1" V 5700 5900 50  0000 C CNN
+F 1 "Amber 2.2Vf" V 5600 5750 50  0000 C CNN
+F 2 "LEDs:LED-5MM" H 5600 6050 50  0001 C CNN
+F 3 "" H 5600 6050 50  0000 C CNN
+F 4 "C566C-AFF-CU0W0252CT-ND" V 5600 6050 60  0001 C CNN "SourcePartNo"
+F 5 "0" V 5600 6050 60  0001 C CNN "stock"
+	1    5600 6050
+	0    -1   -1   0   
+$EndComp
+Text GLabel 5600 5350 0    60   Input ~ 0
+LEDP
+Text GLabel 5600 6250 0    60   Input ~ 0
+LEDN
+$Comp
+L R Rlim1
+U 1 1 5B0818C1
+P 5600 5500
+F 0 "Rlim1" H 5800 5400 50  0000 C CNN
+F 1 "100" H 5800 5500 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 5530 5500 50  0001 C CNN
+F 3 "" H 5600 5500 50  0000 C CNN
+F 4 "541-100GCT-nd" H 5600 5500 60  0001 C CNN "SourcePartNo"
+F 5 "9" H 5600 5500 60  0001 C CNN "stock"
+	1    5600 5500
+	1    0    0    -1  
+$EndComp
+Text GLabel 5600 5650 0    60   Input ~ 0
+LEDlim
+Text GLabel 5600 5850 0    60   Input ~ 0
+LEDlim
+Text GLabel 6700 2950 2    60   Input ~ 0
+LEDN
+$Comp
+L C Cby3
+U 1 1 5B096EF1
+P 7550 2850
+F 0 "Cby3" V 7400 2800 50  0000 L CNN
+F 1 "10uF" V 7750 2850 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 7588 2700 50  0001 C CNN
+F 3 "" H 7550 2850 50  0000 C CNN
+F 4 "490-3896-1-nd" V 7550 2850 60  0001 C CNN "SourcePartNo"
+F 5 "2" V 7550 2850 60  0001 C CNN "stock"
+	1    7550 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR012
+U 1 1 5B096EF7
+P 7400 2850
+F 0 "#PWR012" H 7400 2600 50  0001 C CNN
+F 1 "GND" H 7400 2700 50  0000 C CNN
+F 2 "" H 7400 2850 50  0000 C CNN
+F 3 "" H 7400 2850 50  0000 C CNN
+	1    7400 2850
+	1    0    0    -1  
+$EndComp
+Text GLabel 7700 2850 2    60   Input ~ 0
+SwVcc
+$Comp
+L C Cby2
+U 1 1 5B097115
+P 3800 2350
+F 0 "Cby2" V 3650 2300 50  0000 L CNN
+F 1 "0.1uF" V 4000 2350 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 3838 2200 50  0001 C CNN
+F 3 "" H 3800 2350 50  0000 C CNN
+	1    3800 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR013
+U 1 1 5B09711B
+P 3650 2350
+F 0 "#PWR013" H 3650 2100 50  0001 C CNN
+F 1 "GND" H 3650 2200 50  0000 C CNN
+F 2 "" H 3650 2350 50  0000 C CNN
+F 3 "" H 3650 2350 50  0000 C CNN
+	1    3650 2350
+	1    0    0    -1  
+$EndComp
+Text GLabel 3950 2350 2    60   Input ~ 0
+SwVcc
+Text Notes 8550 4400 0    60   ~ 0
+Mcu has internal pullup on NotReset
+NoConn ~ 5200 3750
+NoConn ~ 5200 2950
+$Comp
+L D SC2
+U 1 1 5BD6EF68
+P 10400 1000
+F 0 "SC2" H 10400 1100 50  0000 C CNN
+F 1 "KXOB22-4x3 1.9V" H 10450 1200 50  0000 C CNN
+F 2 "myFootprints:IXYS_KXOB22_1x8_handsolderable" H 10400 1000 50  0001 C CNN
+F 3 "" H 10400 1000 50  0000 C CNN
+F 4 "KXOB22-04X3F-ND" H 10400 1000 60  0001 C CNN "SourcePartNo"
+	1    10400 1000
+	-1   0    0    1   
+$EndComp
+Text GLabel 10250 1000 0    60   Input ~ 0
+SCMid
+Text GLabel 9500 1000 2    60   Input ~ 0
+SCMid
+Text GLabel 2350 5550 0    60   Input ~ 0
+Vstor
+Text GLabel 5250 1250 0    60   Input ~ 0
+SwVcc
+$Comp
+L GND #PWR014
+U 1 1 5C38F8C8
+P 6700 3750
+F 0 "#PWR014" H 6700 3500 50  0001 C CNN
+F 1 "GND" H 6700 3600 50  0000 C CNN
+F 2 "" H 6700 3750 50  0000 C CNN
+F 3 "" H 6700 3750 50  0000 C CNN
+	1    6700 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR015
+U 1 1 5C3F4812
+P 3950 4300
+F 0 "#PWR015" H 3950 4050 50  0001 C CNN
+F 1 "GND" V 3950 4100 50  0000 C CNN
+F 2 "" H 3950 4300 50  0000 C CNN
+F 3 "" H 3950 4300 50  0000 C CNN
+	1    3950 4300
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 3950 3850
+Text GLabel 5200 4350 0    60   Input ~ 0
+SClk
+NoConn ~ 6700 3950
+NoConn ~ 6700 4150
+NoConn ~ 6700 4350
+Text GLabel 5200 4150 0    60   Input ~ 0
+SDA
+NoConn ~ 6700 4750
+NoConn ~ 5200 4550
+Text GLabel 6700 2550 2    60   Input ~ 0
+SwVcc
+Text GLabel 3950 3650 2    60   Input ~ 0
+SwVcc
+$Comp
+L CONN_01X02 P1
+U 1 1 5CB0D6C2
+P 5450 1200
+F 0 "P1" H 5450 1350 50  0000 C CNN
+F 1 "CONN_01X02" V 5550 1200 50  0000 C CNN
+F 2 "myFootprints:SolderJumperClosed" H 5450 1200 50  0001 C CNN
+F 3 "" H 5450 1200 50  0000 C CNN
+	1    5450 1200
+	1    0    0    -1  
+$EndComp
+Text GLabel 5250 1150 0    60   Input ~ 0
+Vstor
+Text Notes 4650 850  0    60   ~ 0
+Jumper to test current or isolate SBW
+Text GLabel 5250 1750 0    60   Input ~ 0
+Vstor
+Text GLabel 5500 1750 2    60   Input ~ 0
+SwVcc
+Wire Wire Line
+	5250 1750 5500 1750
+Text Notes 4900 1600 0    60   ~ 0
+Vstor and Vswvcc are NC
+Text Notes 8600 4550 0    60   ~ 0
+Mcu has pulldown on TST
+Text Notes 8500 4900 0    60   ~ 0
+Use mcu internal pullups 30kohm for I2C SCL and SDA
+Text Notes 7250 6800 0    60   ~ 0
+Rev 6: no Vmon or LS
+Text Notes 8550 5150 0    60   ~ 0
+Use external pullups on SBW cable
+NoConn ~ 5200 3150
+NoConn ~ 5200 3550
+$EndSCHEMATC
